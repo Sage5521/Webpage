@@ -1,0 +1,30 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: font-family, 'Inconsolata', monospace; /* this should be the rest of the output you got from Google fonts */
+  background-color: #f3efd7;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+}
+p, li{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+img{
+  align-items: center;
+  display: block;
+  margin: 40px;
+}
+body{
+  width: 600px;
+  margin: 40px auto;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black
+}
+figcaption{
+  text-align: center;
+}
